@@ -1,0 +1,11 @@
+.bordesolido{
+    border-color: #aaaaaa;
+    border-width: 1px;
+    border-style: solid;
+ }
+ .bordepunteado{
+    border: 9px double #ff8833;
+ }
+ .bordedoble{
+    border: 9px double #990000;
+ }
