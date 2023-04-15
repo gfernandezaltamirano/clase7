@@ -15,7 +15,7 @@
  .bordegroove{
    border: 5px groove #660000;
  }
- div. borderidge{
+ div.borderidge{
    border: 10px inset #3333ff;
    background-color: #0000ff;
  }
@@ -41,7 +41,7 @@
  que son los primeros en adaptarse a css3, podemos
  utilizar el atributo border-radius de la siguiente manera*/
  #capa3{
-   -webkit-border-radius: 15px;
+   -wedkit-border-radius: 15px 27px 100px 0px;
    padding: 10px;
   }
   /*Asi estariamos definiendo un borde redondeado
