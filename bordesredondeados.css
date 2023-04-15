@@ -41,7 +41,7 @@
  que son los primeros en adaptarse a css3, podemos
  utilizar el atributo border-radius de la siguiente manera*/
  #capa3{
-   -wedkit-border-radius: 15px 27px 100px 0px;
+   -border-radius: 15px 27px 100px 0px;
    padding: 10px;
   }
   /*Asi estariamos definiendo un borde redondeado
