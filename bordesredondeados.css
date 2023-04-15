@@ -29,3 +29,24 @@
    border-bottom: 2px dashed #9999ff;
    border-left: 3px double #666666;
  }
+ /*css 3 incorpora nuevas propiedades para el 
+ control de bordes de los elementos. ahora se
+ permiten bords con las esquinas redondeadas
+ internet explorer hay que decir que
+ todavia no soporta este atributo de CSS#*/
+ #capa1, #capa2{
+   border-radius: 15px;
+ }
+ /*Por el momento, para navegadores mozilla y chrome
+ que son los primeros en adaptarse a css3, podemos
+ utilizar el atributo border-radius de la siguiente manera*/
+ #capa3{
+   -webkit-border-radius: 15px;
+   padding: 10px;
+  }
+  /*Asi estariamos definiendo un borde redondeado
+  con radio de 15 pixeles para la esquina superior izquierda
+  luego 27 px para la esquina superior derecha
+  de 100px para la inferior derecha y 0px para la esquina
+  inferiior izquierda. (Hay que explicar que un
+  border-radius de 0px es un borde coin esquina en angulo recho)*/
